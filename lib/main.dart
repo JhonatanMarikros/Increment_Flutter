@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter Increments'),
+          title: const Text('Flutter Increment'),
         ),
         body: page[currentIndex],
         bottomNavigationBar: BottomNavigationBar(
