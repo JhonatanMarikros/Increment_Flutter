@@ -10,8 +10,15 @@ class Settings extends StatefulWidget {
 class _SettingsState extends State<Settings> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text('Kons'),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: SafeArea(
+          child: Center(
+            child: Text('Coming Soon'),
+          ),
+        ),
+      ),
     );
   }
 }
