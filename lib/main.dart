@@ -14,7 +14,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   int currentIndex = 0;
 
-  final List<Widget> page = [const Home(), const Setting()];
+  final List<Widget> page = [const Home(), const Settings()];
 
   @override
   Widget build(BuildContext context) {
@@ -129,14 +129,14 @@ class _HomeState extends State<Home> {
   }
 }
 
-class Setting extends StatefulWidget {
-  const Setting({super.key});
+class Settings extends StatefulWidget {
+  const Settings({super.key});
 
   @override
-  State<Setting> createState() => _SettingState();
+  State<Settings> createState() => _SettingsState();
 }
 
-class _SettingState extends State<Setting> {
+class _SettingsState extends State<Settings> {
   @override
   Widget build(BuildContext context) {
     return Center(
