@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
             top: 290,
             right: 150,
             child: Text(
-              'Increments',
+              'Increment',
               style: TextStyle(
                 fontFamily: 'GrandHotel-Regular',
                 fontSize: 30,
