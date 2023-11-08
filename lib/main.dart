@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test4/home.dart';
+import 'package:test4/setting.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,20 +45,3 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-
-
-class Settings extends StatefulWidget {
-  const Settings({super.key});
-
-  @override
-  State<Settings> createState() => _SettingsState();
-}
-
-class _SettingsState extends State<Settings> {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text('Kons'),
-    );
-  }
-}
